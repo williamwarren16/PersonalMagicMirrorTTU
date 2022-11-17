@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Magic Mirror</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  </style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Project 2</b> Personal Magic Mirror</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#C" class="w3-bar-item w3-button">( C )</a>
+      <a href="#B" class="w3-bar-item w3-button">( B )</a>
+      <a href="#A" class="w3-bar-item w3-button">( A )</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/contentt/mirror.png" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min">
+      <b>Project 2</b></span> 
+    <span class="w3-hide-small w3-text-light-grey"><br>Personal <br>Magic Mirror</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- C Section -->
+  <div class="w3-container w3-padding-64" id="C">
+    <h3 style="font-size:3vw" class="w3-border-bottom w3-border-light-grey"> To get a <font color="#00f">C</font>, you need to:</h3>
+    <div class="w3-onethird w3-container">
+        <p style="font-size:1.5vw"> 
+            <br>&#10004; Provide the Sketch of your interface.
+            <br>&#10004; Include the general information in your sketch: personalized calendar, news feed, text messages, social feed items, clock, and weather.
+            <br>&#10004; Include the health-related information in your sketch: sleep, weight, exercises, and mirror time.
+        </p> 
+        <h1 style="font-size:3vw" class="w3-text-">Personal Magic Mirror Sketch</h1>
+        <div class="row">
+          <div class="column">
+            <img src="/contentt/sketchIm.png" alt="imagec" style="width:100%">
+          </div>
+
+        </div>
+    </div>    
+  </div>
+    
+
+  <!-- B Section -->
+  <div class="w3-container w3-padding-64" id="B">
+    <h3 style="font-size:3vw" class="w3-border-bottom w3-border-light-grey"> To get a <font color="#00f">B</font>, you need to:</h3>
+
+    <div class="w3-onethird w3-container">
+        <p style="font-size:1.5vw">
+            <br>&#10004; Implement your Sketch in Processing or p5.js
+            <br>&#10004; Implement the general information : personalized calendar (from a csv or json file), news feed (from a csv or json file), current clock, and local weather (from a file or api).
+            <br>&#10004; Implement the health-related information in your sketch (select one of these): sleep, weight, exercises, and mirror time (from a csv or json file).
+        </p>
+        <h1 style="font-size:3vw" class="w3-text-">Personal Magic Mirror Implementation</h1>
+          <div class="w3-twothird w3-container">
+            <img class="w3-image" src="/contentt/sketchIm.png" alt="Architecture" width="600" height="800">
+          </div>
+        </p>
+    </div>
+  </div>
+
+  <!-- A Section -->
+  <div class="w3-container w3-padding-64" id="A">
+    <h3 style="font-size:3vw" class="w3-border-bottom w3-border-light-grey">Now, imagine that you can have a touch screen on the elevator. To get a <font color="#00f">A</font>, you need to:</h3>
+    <p style="font-size:1.5vw">
+        <br>&#10004; Implement one of the advanced features
+        <br>&#10004; Provide your github report page and 2-minute presentation video
+        <br>&#10004; Please pay attention on the overal design and layout, and usability of your final interface
+    </p>
+    <div class="w3-container">
+      <img src="/contentt/elevator.png" alt="Paris" class="center" style="width:75%">
+    </div>
+    
+  </div>
+  
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+
+</body>
+</html>
